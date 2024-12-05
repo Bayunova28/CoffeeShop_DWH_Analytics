@@ -10,7 +10,7 @@ to create a data warehouse dimensional model of operating hours in the coffee in
 <img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ERD-Diagram.png" height="600" width="1000">  
 
 ## ETL Pipeline
-<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ETL-Pipeline/CoffeeShop-Pipeline.png" height="550" width="1000"> 
+<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ETL-Pipeline/CoffeeShop-Pipeline.png" height="400" width="1000"> 
 
 ## OLAB Multidimensional Tabular Cube
 <img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/OLAB-Generation-Gender-Tabular-Cube.png" height="400" width="1000"> 
