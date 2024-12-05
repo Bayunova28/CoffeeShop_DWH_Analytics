@@ -1,0 +1,317 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="a43e6c4e-e3dd-4dcd-aa22-5d13ca3e940d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Sales Outlet</ID>
+  <Name>Sales Outlet</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-933" scrolltop="-2791" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="5662" y="10583" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900180380100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Sales Outlet" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3757" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000ad0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Sales Outlet" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-933</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2791</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="4cebc3c2-6bd8-421e-86f2-4b4032a9b51b">
+    <DataSourceViewID>Coffee Shop</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="a483793c-23d2-4cd0-bad5-bb5c2faca202">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="784082be-eac1-4917-b740-eda7e88a4574">
+      <ID>Sales Outlet Id</ID>
+      <Name>Sales Outlet Id</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a692d398-3903-469f-8901-095a1739279a">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="43498763-7d98-41de-b39f-c4bd0b32af83">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>sales_outlet_id</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="0dbb9935-f8de-43ec-9caa-32837638c123">
+          <AttributeID>Sales Outlet Type</AttributeID>
+          <Name>Sales Outlet Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="bce84596-8330-4488-8145-8ad6baa0c12b">
+          <AttributeID>Store Square Feet</AttributeID>
+          <Name>Store Square Feet</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ae5d785f-e17f-441d-8927-8f1f762f1acd">
+          <AttributeID>Store Address</AttributeID>
+          <Name>Store Address</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="08569b64-ddf0-403d-aba6-6b6ab94ae650">
+          <AttributeID>Store City</AttributeID>
+          <Name>Store City</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="55b7abdf-7d65-4c49-9b34-c74983f5b155">
+          <AttributeID>Store State Province</AttributeID>
+          <Name>Store State Province</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="c25451b5-33c8-4b0f-824d-8ae58ed2ef48">
+          <AttributeID>Store Telephone</AttributeID>
+          <Name>Store Telephone</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7c37b4fa-949d-496c-ae77-07bd0f70cf63">
+          <AttributeID>Store Postal Code</AttributeID>
+          <Name>Store Postal Code</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="ad96fd32-ff57-404d-a96f-9d70380868bd">
+          <AttributeID>Store Longitude</AttributeID>
+          <Name>Store Longitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a35245d5-515b-4acf-828d-a4d459d39a5d">
+          <AttributeID>Store Latitude</AttributeID>
+          <Name>Store Latitude</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4fc2fac5-9636-4f6d-8c02-d5c44b95dbd3">
+          <AttributeID>Manager</AttributeID>
+          <Name>Manager</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="aff5b6b5-feb5-42e4-95cd-ff0c4f8cb5f9">
+          <AttributeID>Neighorhood</AttributeID>
+          <Name>Neighorhood</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="666beb79-eb19-43b4-8793-057b1d4b83a5">
+      <ID>Sales Outlet Type</ID>
+      <Name>Sales Outlet Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="84089442-d013-432d-8d7a-e1c11ed9e2c4">
+          <DataType>WChar</DataType>
+          <DataSize>10</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f419cb37-547b-49ab-ba4d-6360e7ffbdaf">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>sales_outlet_type</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="48818cf5-934f-41cf-b20c-842264eaeccd">
+      <ID>Store Square Feet</ID>
+      <Name>Store Square Feet</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2ab1570f-59b5-48d0-bc0b-4c20aab8e3ac">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c485c8ec-1163-415a-944d-0935e643f2b2">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_square_feet</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="827167d4-884a-4600-ad52-701f5866f110">
+      <ID>Store Address</ID>
+      <Name>Store Address</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9f86bc02-264c-4f3a-982e-ab64e43f5f37">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="edeaf976-1bf2-470a-96d3-2982ed4860ee">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_address</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f2d7699-571f-4750-8e24-418ccdb9ed0f">
+      <ID>Store City</ID>
+      <Name>Store City</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5d2545cf-e210-4a91-92cf-35294426a689">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="36cc2759-8c0c-4a0a-932a-233fb4a46f8f">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_city</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bae7ac74-9d91-4f66-8acc-3e89a4897a45">
+      <ID>Store State Province</ID>
+      <Name>Store State Province</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="231c9117-22cc-4649-9121-8577edb8d265">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f4f5569-dff4-4531-8621-19d15206aa92">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_state_province</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4d34d2e3-e7d3-4b0a-bd21-d57e0c2bdd9b">
+      <ID>Store Telephone</ID>
+      <Name>Store Telephone</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3c076b90-92ac-4114-b5ee-5460b8988912">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8c66a0fd-59d4-4dc2-8b11-7a75ea44a89b">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_telephone</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c4fd55d1-ceeb-450e-891d-fd5a9d15630f">
+      <ID>Store Postal Code</ID>
+      <Name>Store Postal Code</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="43fdda97-b04d-4180-91a5-c47edc079989">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7bf8bb6-3d9a-4236-9f83-26ff5a879d99">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_postal_code</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="032609fc-ed15-464b-8340-2e4bd4c65e37">
+      <ID>Store Longitude</ID>
+      <Name>Store Longitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="226aea5a-29b8-4bf6-be37-e279d3fc19d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="74ab9f1e-fb03-4318-868c-8be66dd58d6e">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_longitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="b9af9151-e2fe-47dd-ac3e-8091da1ec523">
+      <ID>Store Latitude</ID>
+      <Name>Store Latitude</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4e86c581-3529-45ed-9330-cfa484de0dab">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9058ab5c-645d-4356-b20d-ad2665580671">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>store_latitude</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aad67e27-ef68-4076-bbbc-cc66f5700793">
+      <ID>Manager</ID>
+      <Name>Manager</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f45a5363-6681-4275-99a4-e116ce7565d9">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="625ceecb-8d9f-44d2-b136-eedfb8cf2c16">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>manager</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9c5d89bd-4f60-4ce6-8172-73719a6ef585">
+      <ID>Neighorhood</ID>
+      <Name>Neighorhood</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="980f292b-fe9a-4df0-8d4b-74d5e1e6ad6b">
+          <DataType>WChar</DataType>
+          <DataSize>20</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="cad987dd-4ef7-4ffa-8095-67af0fb4bba7">
+            <TableID>dbo_Sales_x0020_Outlet</TableID>
+            <ColumnID>Neighorhood</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

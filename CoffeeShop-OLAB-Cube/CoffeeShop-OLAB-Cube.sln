@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "CoffeeShop-OLAB-Cube", "CoffeeShop-OLAB-Cube\CoffeeShop-OLAB-Cube.dwproj", "{F2168FA4-A842-488D-B88C-786C1C6FBFEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2168FA4-A842-488D-B88C-786C1C6FBFEA}.Development|Default.ActiveCfg = Development
+		{F2168FA4-A842-488D-B88C-786C1C6FBFEA}.Development|Default.Build.0 = Development
+		{F2168FA4-A842-488D-B88C-786C1C6FBFEA}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FF54985-AC1A-4C2E-A31B-F2FB55E9BAD7}
+	EndGlobalSection
+EndGlobal
