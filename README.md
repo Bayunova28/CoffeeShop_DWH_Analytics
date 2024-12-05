@@ -7,10 +7,10 @@ there are not as many visitors to the coffee industry as before the pandemic. It
 to create a data warehouse dimensional model of operating hours in the coffee industry</p> 
 
 ## Database Diagram
-<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ERD-Diagram.png" height="600" width="1000">  
+<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ERD-Diagram.png" height="450" width="1000">  
 
 ## ETL Pipeline
-<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ETL-Pipeline/CoffeeShop-Pipeline.png" height="400" width="1000"> 
+<img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/CoffeeShop-ETL-Pipeline/CoffeeShop-Pipeline.png" height="450" width="1000"> 
 
 ## OLAB Multidimensional Tabular Cube
 <img src="https://github.com/Bayunova28/CoffeeShop_DWH_Analytics/blob/main/OLAB-Generation-Gender-Tabular-Cube.png" height="400" width="1000"> 
